@@ -1,0 +1,61 @@
+﻿<!DOCTYPE html>
+<html><head><meta http-equiv="content-type" content="text/html;charset=utf-8">
+<link rel="stylesheet" href="style.css">
+</head>
+     <body>
+         <div class="header" id="header">
+		     <ul class="up_Menu">                  
+			       <li> Найти задачу <input  type="text" id="SearchTask" class="SearchTask"></li>
+				   <li><button> Добавить задачу</button>  
+             </ul>				   
+	     </div>
+         <div class="BokMenu">
+	                 <div class="BokSpisokdiv">  <ul class="BokSpisok">
+							                                <li onclick="open_someDiv('TekushieZadachi')">Текущие задачи</li>
+								                            <li onclick="open_someDiv('doTodaySuka')">Сделать сегодня</li>
+								                            <li> Задачи на неделе </li>
+						                             </ul>
+				     </div>
+				      <div class="ChoseKategorydiv">  <ul class="ChoseKategory"><p>Выбрать категорию<p>
+							                                <li onclick="open_someDiv('Lichnye')" >Личные   </li>
+								                            <li onclick="open_someDiv('Poruchenia')">Поручения </li>
+								                            <li onclick="open_someDiv('Pokupki')"> Покупки </li>
+															<li onclick="open_someDiv('Nado_po_lubasu')"> Надо по-любасу </li>
+						                             </ul>
+	                  </div>
+							
+        </div>					 
+        			            
+                     <div class= "ActivRegion" id="ActivRegion">
+					         <div class="TekushieZadachi"  id="TekushieZadachi"> 
+                                        <p>Сделать в принципе</p>							 
+                                        <form>
+                                                  <div id="input1">												                                                              														 
+                                                        </div>
+														<div id="inputi1"> <p onclick="add_input1(document.getElementById('inputi1').getElementsByTagName('div'))"> Добавить задачу</p> 
+                                                 </div>
+                                        </form>	
+                              </div>
+                              <div class="doTodaySuka" id="doTodaySuka" name="Windows"> 
+                                        <p> Сделать сегодня</p>							 
+                                        <form>
+                                                  <div id="input2">
+												     </div> 
+													  <div id="inputi2"> <p onclick="add_input2(document.getElementById('inputi2').getElementsByTagName('div'))"> Добавить задачу</p>                                 
+                                                       
+												 </div>
+                                        </form>	
+                             </div>	
+                             <div class="Lichnye" id="Lichnye" name="Windows"><p>Личные</p></div>
+		                     <div class="Poruchenia" id="Poruchenia" name="Windows"><p>Поручения</p></div>
+		                     <div class="Pokupki" id="Pokupki" name="Windows"><p>Покупки</p></div>
+		                     <div class="Nado_po_lubasu" id="Nado_po_lubasu" name="Windows"><p>Надо по-любасу</p></div>							  
+                   							  
+					</div>
+		
+
+
+<script src="main.js">
+</script>
+</body>
+</html>

@@ -1,0 +1,224 @@
+﻿body {
+	    background-color:#D3D3D3;
+}
+.header {
+        margin-top: -10px;	
+        width: 100%;
+        position: fixed;
+        background-color: red;
+	    display:block;  
+        height: 30px; 
+     	border-bottom-style: groove;  
+}
+ ul.up_Menu {
+	    margin-top:5px;
+        margin-left: 200px; 
+        padding: 1px; 
+   }
+ ul.up_Menu li {
+        display: inline; 
+        margin-right: 300px; 
+        padding: 3px; 
+   }
+.BokMenu {
+	    width: 300px;
+        position: relative;
+        background: red;
+	    display:block;  
+        height: 600px;
+	    top:25px;
+		display:block;
+}
+.BokSpisokdiv{
+    	text-align:left;
+    	width: 300px;
+    	position:relative;
+    	background: red;
+	    top:30px;
+	
+}
+ul.BokSpisok {
+         cursor:pointer;
+}
+
+ ul.BokSpisok li {    
+        cursor:pointer;
+        font-family:Arial, sans-serif;
+	    list-style-type: none;
+	    line-height: 3;
+	    position:relative;
+        color:yellow;
+}
+ul.ChoseKategory {
+         cursor:pointer;
+}
+
+ ul.ChoseKategory li {    
+        cursor:pointer;
+        font-family:Arial, sans-serif;
+	    list-style-type: none;
+	    line-height: 3;
+	    position:relative;
+        color:yellow;
+}
+p:hover{ 
+       cursor:pointer;
+       text-decoration: underline;	
+}
+ .BokSpisok li:hover {
+	    background: #C0C0C0;
+	    width:200px;
+}
+.ChoseKategorydiv li:hover {
+	    background: #C0C0C0;
+	    width:200px;
+}
+.ChoseKategorydiv{
+         text-align:left;
+         width: 300px;
+         position: relative;
+         background: green;
+	    display:block;  
+        height: 300px;
+	    margin-top:51px;	
+}
+.ActivRegion{
+	    position:fixed;
+     	width:700px;
+	    height:600px;
+	     background:#F5F5F5;
+    	top:40px;
+	    left:308px;
+	    display:block;
+	    border:1px solid #888;
+		display:block;
+}
+.TekushieZadachi{
+	     position:fixed;
+     	 width:600px;
+	     height:600px;
+	     background:blue;
+    	 top:40px;
+	     left:320px;
+	     display:block;
+	     border:1px solid #888;
+	
+}
+.doTodaySuka{
+	     position:fixed;
+     	 width:600px;
+	     height:600px;
+	     background:yellow;
+    	 top:40px;
+	     left:320px;
+	     display:none;
+	     border:1px solid #888;
+	
+}
+.Lichnye{
+	     position:fixed;
+     	 width:600px;
+	     height:600px;
+	     background:green;
+    	 top:40px;
+	     left:320px;
+	     display:none;
+	     border:1px solid #888;
+	
+}
+.Poruchenia{
+	     position:fixed;
+     	 width:600px;
+	     height:600px;
+	     background:blue;
+    	 top:40px;
+	     left:320px;
+	     display:none;
+	     border:1px solid #888;
+	
+}
+.Pokupki{
+	     position:fixed;
+     	 width:600px;
+	     height:600px;
+	     background:red;
+    	 top:40px;
+	     left:320px;
+	     display:none;
+	     border:1px solid #888;
+	
+}
+.Nado_po_lubasu{
+	     position:fixed;
+     	 width:600px;
+	     height:600px;
+	     background:blue;
+    	 top:40px;
+	     left:320px;
+	     display:none;
+	     border:1px solid #888;
+	
+}
+ul.Chose_category_main {
+    display: block;
+    margin: 0;
+	margin-top:-25px;
+    padding: -10px;
+	margin-left:220px;
+    list-style: none;
+}
+ul.Chose_category_main:after {
+    display: block;
+    content: ' ';
+    clear: both;
+    float: none;
+}
+ul.Chose_category_main > li {
+    float: left;
+    position: relative;
+}
+ul.Chose_category_main > li > a {
+    display: block;
+    padding: 10px;
+    color: white;
+    background-color: green;
+  
+}
+ul.Chose_category_main > li > a:hover {
+    background-color: black;
+	cursor:pointer;
+	text-decoration: underline;	
+}
+ul.Chose_category_submain {
+    display: none;
+    position: absolute;
+    width: 120px;
+    top: 37px;
+    left: -30px;
+    background-color: white;
+    border: 1px solid red;
+}
+ul.Chose_category_submain > li {
+    display: block;
+}
+ul.Chose_category_submain> li > a:hover{
+	text-decoration: underline;
+}
+ul.Chose_category_submain> li > a:active{
+	background-color: white;
+}
+ul.Chose_category_submain> li > a {
+    display: block;
+    padding: 10px;
+    color: white;
+    background-color: red;
+    text-decoration: none;
+	cursor:pointer;	
+}
+
+ul.Chose_category_main > li:hover > ul.Chose_category_submain {
+    display: block;
+}
+
+
+
